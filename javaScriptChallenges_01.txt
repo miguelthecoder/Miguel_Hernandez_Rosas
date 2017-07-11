@@ -1,0 +1,27 @@
+1.    Write a program to print the numbers 1 through 10 to the console
+2.    Write a function that creates two variables, firstName and lastName,
+ set to your personal first name and last name, and print out a welcome
+ message to the screen with your first and last name included
+ (i.e. “Hello there! My name is Mario Lopez”)
+3.    Use a loop to print out your name 4 times in a row
+4.    Create an array with 4 names in it and write a loop to print
+ the contents of the array
+5.    Write a loop to print out the numbers 10 through 1 to the console
+
+1.for(var i = 1; i < 11; i += 1) {
+    console.log(i);
+}
+
+2.var firstName = ("Miguel");
+var lastName= ("Hernandez Rosas");
+console.log("Hello there! My name is " + firstName +" "+ lastName);
+
+
+3.var Ppl = ["Maggie", "Mayela", "NotTabitha","NotMiguel"];
+for (var i=0; <= Ppl.length; i++){
+console.log(Ppl[i]); }
+
+4.for(var i = 1; i < 11; i-- ) {
+    console.log(i);
+}
+
